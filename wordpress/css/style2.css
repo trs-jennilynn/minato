@@ -110,3 +110,8 @@ article.member_article{
 #inline1{
 	text-align: center !important;
 }
+.member_popup > img{
+	border-radius: 50%;
+	height: 25%;
+	width: 50%;
+}

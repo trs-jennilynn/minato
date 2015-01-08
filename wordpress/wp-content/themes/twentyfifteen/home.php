@@ -452,6 +452,137 @@ Template Name: home
 	</body>
 </html>
 	</div><!-- .content-area -->
+<div class="member_popup">
+<div id="inline1" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/andou.jpg" alt="" />
+	</br>
+	<h3>Member Name</h3>
+	</br>
+	<p>
+		Position:
+	</br>		
+		Hobby:
+	</br>		
+		Interest:
+	</p>
+</div>
+<div id="inline2" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/jen.jpg" alt="" />
+	</br>
+	<h3>Member Name</h3>
+	</br>
+	<p>
+		Position:
+	</br>		
+		Hobby:
+	</br>		
+		Interest:
+	</p>
+</div>
+<div id="inline3" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/daniel.jpg" alt="" />
+	</br>
+	<h3>Member Name</h3>
+	</br>
+	<p>
+		Position:
+	</br>		
+		Hobby:
+	</br>		
+		Interest:
+	</p>
+</div>
+<div id="inline4" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/felman.jpg" alt="" />
+	</br>
+	<h3>Member Name</h3>
+	</br>
+	<p>
+		Position:
+	</br>		
+		Hobby:
+	</br>		
+		Interest:
+	</p>
+</div>
+<div id="inline5" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
+	</br>
+	<h3>Member Name</h3>
+	</br>
+	<p>
+		Position:
+	</br>		
+		Hobby:
+	</br>		
+		Interest:
+	</p>
+</div>
+<div id="inline6" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/andou.jpg" alt="" />
+	</br>
+	<h3>Member Name</h3>
+	</br>
+	<p>
+		Position:
+	</br>		
+		Hobby:
+	</br>		
+		Interest:
+	</p>
+</div>
+<div id="inline7" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/jen.jpg" alt="" />
+	</br>
+	<h3>Member Name</h3>
+	</br>
+	<p>
+		Position:
+	</br>		
+		Hobby:
+	</br>		
+		Interest:
+	</p>
+</div>
+<div id="inline8" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/daniel.jpg" alt="" />
+	</br>
+	<h3>Member Name</h3>
+	</br>
+	<p>
+		Position:
+	</br>		
+		Hobby:
+	</br>		
+		Interest:
+	</p>
+</div>
+<div id="inline9" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/felman.jpg" alt="" />
+	</br>
+	<h3>Member Name</h3>
+	</br>
+	<p>
+		Position:
+	</br>		
+		Hobby:
+	</br>		
+		Interest:
+	</p>
+</div>
+<div id="inline10" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
+	</br>
+	<h3>Member Name</h3>
+	</br>
+	<p>
+		Position:
+	</br>		
+		Hobby:
+	</br>		
+		Interest:
+	</p>
+</div>
 <div id="inline1" style="width:400px;text-align:center;display: none;">
 	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
 	</br>
@@ -465,134 +596,5 @@ Template Name: home
 		Interest:
 	</p>
 </div>
-<div id="inline2" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline3" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline4" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline5" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline6" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline7" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline8" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline9" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline10" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline1" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
 </div>
 <?php get_footer(); ?>
