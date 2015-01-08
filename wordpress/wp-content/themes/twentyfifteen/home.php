@@ -596,5 +596,4 @@ Template Name: home
 		Interest:
 	</p>
 </div>
-</div>
 <?php get_footer(); ?>
