@@ -225,7 +225,15 @@ Template Name: home
 	</style>
 	
 	</head>
-	<body class="homepage">
+<body class="homepage">
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<section id="homes">
 		<!-- Header -->
 		<div id="background_logo">
@@ -233,36 +241,13 @@ Template Name: home
 		<div id="thumb">
 			<img class="minatologo" src="./images/minato_logo.png">
 		</div>
-			<div class="inner" style="text-align: center;">
-				<footer>
-					<a href="#banner" class="button circled scrolly" style="margin-top: -200px;">Start</a>
-				</footer>
-			</div>
 				<!-- Nav -->
-					<nav id="nav">
+					<nav id="nav" style="color: white;">
 						<ul>
 							<li><a href="#skel-layers-wrapper" class="button circled scrolly">Home</a></li>
 							<li><a href="#banner" class="button circled scrolly">Concept</a></li>
 							<li><a href="#member" class="button circled scrolly">Members</a></li>
 							<li><a href="#base" class="button circled scrolly">Base</a></li>
-							<!-- <li>
-								<a href="#" class="button circled scrolly">Dropdown</a>
-								<ul>
-									<li><a href="#">Lorem ipsum dolor</a></li>
-									<li><a href="#">Magna phasellus</a></li>
-									<li><a href="#">Etiam dolore nisl</a></li>
-									<li>
-										<a href="">And a submenu &hellip;</a>
-										<ul>
-											<li><a href="#">Lorem ipsum dolor</a></li>
-											<li><a href="#">Phasellus consequat</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam dolore nisl</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Veroeros feugiat</a></li>
-								</ul>
-							</li> -->
 						</ul>
 					</nav>
 </section>
@@ -428,7 +413,6 @@ Template Name: home
 		<!-- Footer -->
 			<div id="footer">
 				<div class="container">
-					<hr />
 					<div class="row">
 						<div class="12u">
 							
@@ -439,13 +423,17 @@ Template Name: home
 									</header>
 									<p>Urna nisl non quis interdum mus ornare ridiculus egestas ridiculus lobortis vivamus tempor aliquet.</p>
 									<ul class="icons">
-										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+										<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
+										<li>
+										<div class="fb-like-box" data-href="https://www.facebook.com/pages/minatocoltd/102274136519328" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+										<!-- <a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a> -->
+										</li>
+										<!-- <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 										<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
 										<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
 										<li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://minato.localhost/&title=Minato.co.jp.dev&summary=Minaco.co.jp.dev&source=TheNameOfYourSiteGoesHere" rel="nofollow" onclick="NewWindow(this.href,'template_window','550','400','yes','center');return false" onfocus="this.blur()" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-									</ul>
+										 -->
+										 </ul>
 								</section>
 							
 							<!-- Copyright -->
