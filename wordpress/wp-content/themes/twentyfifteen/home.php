@@ -38,6 +38,11 @@ Template Name: home
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	
 	<script type="text/javascript">
+		$(document).ready(function(){
+			$('body').find('div').find('div').find('div').find('div').find('.bottomborder').css({background : "red"});
+		});
+	</script>
+	<script type="text/javascript">
 		$(document).ready(function() {
 			/*
 			 *  Simple image gallery. Uses default settings
