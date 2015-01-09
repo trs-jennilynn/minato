@@ -226,14 +226,7 @@ Template Name: home
 	
 	</head>
 <body class="homepage">
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	var js, fjs = d.getElementsByTagName(s)[0];
-	if (d.getElementById(id)) return;
-	js = d.createElement(s); js.id = id;
-	js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
-	fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+
 	<section id="homes">
 		<!-- Header -->
 		<div id="background_logo">
@@ -413,27 +406,13 @@ Template Name: home
 		<!-- Footer -->
 			<div id="footer">
 				<div class="container">
-					<div class="row">
+					<!-- <div class="row"> -->
 						<div class="12u">
 							
 							<!-- Contact -->
 								<section class="contact">
-									<header>
-										<h3>Nisl turpis nascetur interdum?</h3>
-									</header>
-									<p>Urna nisl non quis interdum mus ornare ridiculus egestas ridiculus lobortis vivamus tempor aliquet.</p>
-									<ul class="icons">
-										<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
-										<li>
-										<div class="fb-like-box" data-href="https://www.facebook.com/pages/minatocoltd/102274136519328" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
-										<!-- <a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a> -->
-										</li>
-										<!-- <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-										<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://minato.localhost/&title=Minato.co.jp.dev&summary=Minaco.co.jp.dev&source=TheNameOfYourSiteGoesHere" rel="nofollow" onclick="NewWindow(this.href,'template_window','550','400','yes','center');return false" onfocus="this.blur()" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-										 -->
-										 </ul>
+									<iframe class="fb_iframe_widget" src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fminatocompany&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:290px;" allowTransparency="true"></iframe>
+									<!-- <div class="fb-like-box" data-href="https://www.facebook.com/pages/minatocoltd/102274136519328" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div> -->
 								</section>
 							
 							<!-- Copyright -->
@@ -442,9 +421,6 @@ Template Name: home
 										<li>&copy; All Rights Reserved 2014, Minato Co.,Ltd</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 									</ul>
 								</div>
-							
-						</div>
-					
 					</div>
 				</div>
 			</div>
