@@ -38,6 +38,11 @@ Template Name: home
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	
 	<script type="text/javascript">
+		$(document).ready(function(){
+			$('body').find('div').find('div').find('div').find('div').find('.bottomborder').css({background : "red"});
+		});
+	</script>
+	<script type="text/javascript">
 		$(document).ready(function() {
 			/*
 			 *  Simple image gallery. Uses default settings
@@ -225,7 +230,7 @@ Template Name: home
 	</style>
 	
 	</head>
-	<body class="homepage">
+<body class="homepage">
 	<section id="homes">
 		<!-- Header -->
 		<div id="background_logo">
@@ -233,36 +238,13 @@ Template Name: home
 		<div id="thumb">
 			<img class="minatologo" src="./images/minato_logo.png">
 		</div>
-			<div class="inner" style="text-align: center;">
-				<footer>
-					<a href="#banner" class="button circled scrolly" style="margin-top: -200px;">Start</a>
-				</footer>
-			</div>
 				<!-- Nav -->
-					<nav id="nav">
+					<nav id="nav" style="color: white;">
 						<ul>
 							<li><a href="#skel-layers-wrapper" class="button circled scrolly">Home</a></li>
 							<li><a href="#banner" class="button circled scrolly">Concept</a></li>
 							<li><a href="#member" class="button circled scrolly">Members</a></li>
 							<li><a href="#base" class="button circled scrolly">Base</a></li>
-							<!-- <li>
-								<a href="#" class="button circled scrolly">Dropdown</a>
-								<ul>
-									<li><a href="#">Lorem ipsum dolor</a></li>
-									<li><a href="#">Magna phasellus</a></li>
-									<li><a href="#">Etiam dolore nisl</a></li>
-									<li>
-										<a href="">And a submenu &hellip;</a>
-										<ul>
-											<li><a href="#">Lorem ipsum dolor</a></li>
-											<li><a href="#">Phasellus consequat</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam dolore nisl</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Veroeros feugiat</a></li>
-								</ul>
-							</li> -->
 						</ul>
 					</nav>
 </section>
@@ -428,24 +410,13 @@ Template Name: home
 		<!-- Footer -->
 			<div id="footer">
 				<div class="container">
-					<hr />
-					<div class="row">
+					<!-- <div class="row"> -->
 						<div class="12u">
 							
 							<!-- Contact -->
 								<section class="contact">
-									<header>
-										<h3>Nisl turpis nascetur interdum?</h3>
-									</header>
-									<p>Urna nisl non quis interdum mus ornare ridiculus egestas ridiculus lobortis vivamus tempor aliquet.</p>
-									<ul class="icons">
-										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-										<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://minato.localhost/&title=Minato.co.jp.dev&summary=Minaco.co.jp.dev&source=TheNameOfYourSiteGoesHere" rel="nofollow" onclick="NewWindow(this.href,'template_window','550','400','yes','center');return false" onfocus="this.blur()" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-									</ul>
+									<iframe class="fb_iframe_widget" src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fminatocompany&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:290px;" allowTransparency="true"></iframe>
+									<!-- <div class="fb-like-box" data-href="https://www.facebook.com/pages/minatocoltd/102274136519328" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div> -->
 								</section>
 							
 							<!-- Copyright -->
@@ -454,9 +425,6 @@ Template Name: home
 										<li>&copy; All Rights Reserved 2014, Minato Co.,Ltd</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 									</ul>
 								</div>
-							
-						</div>
-					
 					</div>
 				</div>
 			</div>
@@ -464,7 +432,60 @@ Template Name: home
 	</body>
 </html>
 	</div><!-- .content-area -->
-<div id="inline1" style="width:400px;text-align:center;display: none;">
+<div class="member_popup">
+<div id="inline1" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/andou.jpg" alt="" />
+	</br>
+	<h3>Member Name</h3>
+	</br>
+	<p>
+		Position:
+	</br>		
+		Hobby:
+	</br>		
+		Interest:
+	</p>
+</div>
+<div id="inline2" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/jen.jpg" alt="" />
+	</br>
+	<h3>Member Name</h3>
+	</br>
+	<p>
+		Position:
+	</br>		
+		Hobby:
+	</br>		
+		Interest:
+	</p>
+</div>
+<div id="inline3" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/daniel.jpg" alt="" />
+	</br>
+	<h3>Member Name</h3>
+	</br>
+	<p>
+		Position:
+	</br>		
+		Hobby:
+	</br>		
+		Interest:
+	</p>
+</div>
+<div id="inline4" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/felman.jpg" alt="" />
+	</br>
+	<h3>Member Name</h3>
+	</br>
+	<p>
+		Position:
+	</br>		
+		Hobby:
+	</br>		
+		Interest:
+	</p>
+</div>
+<div id="inline5" class="member_popup" style="width:400px;text-align:center;display: none;">
 	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
 	</br>
 	<h3>Member Name</h3>
@@ -477,8 +498,8 @@ Template Name: home
 		Interest:
 	</p>
 </div>
-<div id="inline2" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
+<div id="inline6" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/andou.jpg" alt="" />
 	</br>
 	<h3>Member Name</h3>
 	</br>
@@ -490,8 +511,8 @@ Template Name: home
 		Interest:
 	</p>
 </div>
-<div id="inline3" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
+<div id="inline7" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/jen.jpg" alt="" />
 	</br>
 	<h3>Member Name</h3>
 	</br>
@@ -503,8 +524,8 @@ Template Name: home
 		Interest:
 	</p>
 </div>
-<div id="inline4" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
+<div id="inline8" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/daniel.jpg" alt="" />
 	</br>
 	<h3>Member Name</h3>
 	</br>
@@ -516,8 +537,8 @@ Template Name: home
 		Interest:
 	</p>
 </div>
-<div id="inline5" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
+<div id="inline9" class="member_popup" style="width:400px;text-align:center;display: none;">
+	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/felman.jpg" alt="" />
 	</br>
 	<h3>Member Name</h3>
 	</br>
@@ -529,59 +550,7 @@ Template Name: home
 		Interest:
 	</p>
 </div>
-<div id="inline6" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline7" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline8" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline9" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline10" style="width:400px;text-align:center;display: none;">
+<div id="inline10" class="member_popup" style="width:400px;text-align:center;display: none;">
 	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
 	</br>
 	<h3>Member Name</h3>
