@@ -1,3 +1,7 @@
+#homes{
+	background: white;
+	padding: 10px;
+}
 #header{
 	background-image: none !important;
 	display: none !important;
@@ -11,7 +15,14 @@
 	text-align: left !important;
 	margin-top: -90px;
 }
-
+@media only screen and (max-width: 500px) {
+ .member_popup{
+  width:250px !important;
+ } 
+ .image.featured{
+	margin-bottom: 65px !important;
+}
+}
 @media only screen and (min-width: 641px) {
 #background_logo{
 	background-image: url("../images/bg_tile.png");
@@ -45,6 +56,9 @@ article.member_article{
 	width: 20%;
 	height: auto;
 }
+.image.featured{
+	margin-bottom: 65px !important;
+}
 }
 @media only screen and (max-width: 640px) {
 #background_logo{
@@ -77,6 +91,9 @@ article.member_article{
 article.member_article{
 	width: 20%;
 	height: auto;
+}
+.image.featured {
+	margin-bottom: 65px !important;
 }
 }
 @media only screen and (max-width: 840px) {
@@ -112,8 +129,8 @@ article.member_article{
 }
 .member_popup > img{
 	border-radius: 50%;
-	height: 25%;
-	width: 50%;
+	height:200px;
+	width:200px;
 }
 @media only screen and (max-width: 321px) {
 .fb_iframe_widget {
@@ -126,4 +143,7 @@ article.member_article{
 	width: 100%;
 	margin: 0 auto
 }
+}
+#colophon{
+	display:none;
 }
