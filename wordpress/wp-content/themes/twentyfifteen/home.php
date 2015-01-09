@@ -418,7 +418,7 @@ Template Name: home
 							
 							<!-- Contact -->
 								<section class="contact">
-									<iframe class="fb_iframe_widget" src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fminatocoltd%2F102274136519328&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:290px;" allowTransparency="true"></iframe>
+									<iframe class="fb_iframe_widget" src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fminatocompany&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:290px;" allowTransparency="true"></iframe>
 									<!-- <div class="fb-like-box" data-href="https://www.facebook.com/pages/minatocoltd/102274136519328" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div> -->
 								</section>
 							
