@@ -1,6 +1,10 @@
+#nav{
+	display: none !important;
+}
 #homes{
 	background: white;
 	padding: 10px;
+	margin-left:-10px;
 }
 #header{
 	background-image: none !important;
@@ -15,12 +19,20 @@
 	text-align: left !important;
 	margin-top: -90px;
 }
+@media only screen and (max-width: 740px) {
+	#navButton > .toggle{
+	display: none !important;
+}
+}
 @media only screen and (max-width: 500px) {
  .member_popup{
   width:250px !important;
  } 
  .image.featured{
 	margin-bottom: 65px !important;
+}
+#navButton > .toggle{
+	display: none !important;
 }
 }
 @media only screen and (min-width: 641px) {
@@ -191,5 +203,3 @@ article.member_article{
 section, article {
 margin-bottom: 1em !important;
 }
-
-

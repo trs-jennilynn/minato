@@ -28,7 +28,12 @@ Template Name: home
 		<!-- Add fancyBox main JS and CSS files -->
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+		<!-- Add Button helper (this is optional) -->
+		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+		
 		<link rel="stylesheet" href="css/style2.css" />
+		
 		<noscript>
 			<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/helios/css/skel.css" />
 			<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/helios/css/style.css" />
@@ -270,93 +275,39 @@ Template Name: home
 				<section id="member_article" class="container special">
 					<div class="row">
 						<article class="member_article 4u special">
-							<a href="#" class="image featured"><img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/andou.jpg" alt="" /></a>
+							<a class="image featured" href="https://www.facebook.com/t.nakame" title="Some Caption!"><img src="https://graph.facebook.com/<?= t.nakame ?>/picture?type=large" alt="" /></a>
 							<header>
-								<h3><a href="#">Member Name</a></h3>
+								<h3>Tomoya Nakame</h3>
 							</header>
 							<p>
-								<a class="fancybox" href="#inline1" title="Member Name">Full Information</a>
+								<a class="" href="https://www.facebook.com/t.nakame">Full Information</a>
 							</p>
 						</article>
 						<article class="member_article 4u special">
-							<a href="#" class="image featured"><img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/jen.jpg" alt="" /></a>
+							<a class="image featured" href="https://www.facebook.com/takuya.andou" title="Some Caption!"><img src="https://graph.facebook.com/<?= takuya.andou ?>/picture?type=large" alt="" /></a>
 							<header>
-								<h3><a href="#">Member Name</a></h3>
+								<h3>Takuya Andou</h3>
 							</header>
 							<p>
-								<a class="fancybox" href="#inline2" title="Member Name">Full Information</a>
+								<a class="" href="https://www.facebook.com/takuya.andou">Full Information</a>
 							</p>
 						</article>
 						<article class="member_article 4u special">
-							<a href="#" class="image featured"><img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/daniel.jpg" alt="" /></a>
+							<a class="image featured" href="https://www.facebook.com/s.keisuke" title="Some Caption!"><img src="https://graph.facebook.com/<?= s.keisuke ?>/picture?type=large" alt="" /></a>
 							<header>
-								<h3><a href="#">Member Name</a></h3>
+								<h3>Keisuke Sibata</h3>
 							</header>
 							<p>
-								<a class="fancybox" href="#inline3" title="Member Name">Full Information</a>
+								<a class="" href="https://www.facebook.com/s.keisuke">Full Information</a>
 							</p>
 						</article>
 						<article class="member_article 4u special">
-							<a href="#" class="image featured"><img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/felman.jpg" alt="" /></a>
+							<a class="image featured" href="https://www.facebook.com/takaalexx" title="Some Caption!"><img src="https://graph.facebook.com/<?= takaalexx ?>/picture?type=large" alt="" /></a>
 							<header>
-								<h3><a href="#">Member Name</a></h3>
+								<h3>Alex Taka</h3>
 							</header>
 							<p>
-								<a class="fancybox" href="#inline4" title="Member Name">Full Information</a>
-							</p>
-						</article>
-						<article class="member_article 4u special">
-							<a href="#" class="image featured"><img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Member Name</a></h3>
-							</header>
-							<p>
-								<a class="fancybox" href="#inline5" title="Member Name">Full Information</a>
-							</p>
-						</article>
-						<article class="member_article 4u special">
-							<a href="#" class="image featured"><img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/andou.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Member Name</a></h3>
-							</header>
-							<p>
-								<a class="fancybox" href="#inline6" title="Member Name">Full Information</a>
-							</p>
-						</article>
-						<article class="member_article 4u special">
-							<a href="#" class="image featured"><img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/jen.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Member Name</a></h3>
-							</header>
-							<p>
-								<a class="fancybox" href="#inline7" title="Member Name">Full Information</a>
-							</p>
-						</article>
-						<article class="member_article 4u special">
-							<a href="#" class="image featured"><img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/daniel.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Member Name</a></h3>
-							</header>
-							<p>
-								<a class="fancybox" href="#inline8" title="Member Name">Full Information</a>
-							</p>
-						</article>
-						<article class="member_article 4u special">
-							<a href="#" class="image featured"><img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/felman.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Member Name</a></h3>
-							</header>
-							<p>
-								<a class="fancybox" href="#inline9" title="Member Name">Full Information</a>
-							</p>
-						</article>
-						<article class="member_article 4u special">
-							<a href="#" class="image featured"><img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Member Name</a></h3>
-							</header>
-							<p>
-								<a class="fancybox" href="#inline10" title="Member Name">Full Information</a>
+								<a class="" href="https://www.facebook.com/takaalexx">Full Information</a>
 							</p>
 						</article>
 					</div>
@@ -431,149 +382,73 @@ Template Name: home
 
 	</body>
 </html>
-	</div><!-- .content-area -->
+</div><!-- .content-area -->
 <div class="member_popup">
-<div id="inline1" class="member_popup" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/andou.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
+	<div id="inline1" class="member_popup" style="width:400px;text-align:center;display: none;">
+		<img src="https://graph.facebook.com/<?= t.nakame ?>/picture?type=large" alt="" />
+		<br/>
+			<h3>Tomoya Nakame</h3>
+		<br/>
+		<p>
+			Position:
+		<br/>		
+			Hobby:
+		<br/>		
+			Interest:
+		</p>
+	</div>
+	<div id="inline2" class="member_popup" style="width:400px;text-align:center;display: none;">
+		<img src="https://graph.facebook.com/<?= takuya.andou ?>/picture?type=large" alt="" />
+		<br/>
+			<h3>Takuya Andou</h3>
+		<br/>
+		<p>
+			Position:
+		<br/>		
+			Hobby:
+		<br/>		
+			Interest:
+		</p>
+	</div>
+	<div id="inline3" class="member_popup" style="width:400px;text-align:center;display: none;">
+		<img src="https://graph.facebook.com/<?= s.keisuke ?>/picture?type=large" alt="" />
+		<br/>
+			<h3>Keisuke Sibata</h3>
+		<br/>
+		<p>
+			Position:
+		<br/>		
+			Hobby:
+		<br/>		
+			Interest:
+		</p>
+	</div>
+	<div id="inline4" class="member_popup" style="width:400px;text-align:center;display: none;">
+		<img src="https://graph.facebook.com/<?= takaalexx ?>/picture?type=large" alt="" />
+		<br/>
+			<h3>Alex Taka</h3>
+		<br/>
+		<p>
+			Position:
+		<br/>		
+			Hobby:
+		<br/>		
+			Interest:
+		</p>
+	</div>
 </div>
-<div id="inline2" class="member_popup" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/jen.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline3" class="member_popup" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/daniel.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline4" class="member_popup" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/felman.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline5" class="member_popup" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline6" class="member_popup" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/andou.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline7" class="member_popup" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/jen.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline8" class="member_popup" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/daniel.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline9" class="member_popup" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/member_images/felman.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline10" class="member_popup" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
-</div>
-<div id="inline1" style="width:400px;text-align:center;display: none;">
-	<img src="<?php echo get_template_directory_uri(); ?>/helios/images/prof_pic.jpg" alt="" />
-	</br>
-	<h3>Member Name</h3>
-	</br>
-	<p>
-		Position:
-	</br>		
-		Hobby:
-	</br>		
-		Interest:
-	</p>
+<div class="member_image_popup">
+	<div id="image_1" class="member_image_popup" style="width:300px;text-align:center;display: none;">
+		<img src="https://graph.facebook.com/<?= t.nakame ?>/picture?type=large" alt="" />
+	</div>
+	<div id="image_2" class="member_image_popup" style="width:300px;text-align:center;display: none;">
+		<img src="https://graph.facebook.com/<?= takuya.andou ?>/picture?type=large" alt="" />
+	</div>
+	<div id="image_3" class="member_image_popup" style="width:300px;text-align:center;display: none;">
+		<img src="https://graph.facebook.com/<?= s.keisuke ?>/picture?type=large" alt="" />
+	</div>
+	<div id="image_4" class="member_image_popup" style="width:300px;text-align:center;display: none;">
+		<img src="https://graph.facebook.com/<?= takaalexx ?>/picture?type=large" alt="" />
+	</div>
 </div>
 <?php get_footer(); ?>
